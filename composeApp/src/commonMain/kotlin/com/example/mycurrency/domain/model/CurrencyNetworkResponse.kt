@@ -1,10 +1,10 @@
-package com.example.mycurrency.domain
+package com.example.mycurrency.domain.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class NetworkResponse(
+data class CurrencyNetworkResponse(
     val meta: MetaData,
     val data: Map<String, Currency>
 )
